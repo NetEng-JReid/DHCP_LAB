@@ -6,7 +6,7 @@ DHCP Lab
 DHCP Lab 
 
 
-**Purpose:** This DHCP lab in Cisco Packet Tracer was to configure a Layer 3 switch to function as the local DHCP server for VLANs 10, 20, and 30 within a small office network environment. The Layer 3 switch dynamically assigns IP addresses to devices in each VLAN, simplifying IP address management and ensuring proper network connectivity. Additionally, Layer 2 security was implemented by configuring DHCP Snooping on all VLANs. The uplink to the local DHCP server on the Layer 3 switch was configured as a trusted interface, while other switch ports remained untrusted to help prevent unauthorized DHCP servers and reduce the risk of DHCP-based attacks.
+**Purpose:** This DHCP lab in Cisco Packet Tracer was to configure a Layer 3 switch to function as the local DHCP server for VLANs 10, 20, and 30 within a small office network environment. The Layer 3 switch dynamically assigns IP addresses to devices in each VLAN, simplifying IP address management and ensuring proper network connectivity. Also, the first five useable IP addresses of each VLAN subnet was excluded from the DCHP pool scope. Additionally, Layer 2 security was implemented by configuring DHCP Snooping on all VLANs. The uplink to the local DHCP server on the Layer 3 switch was configured as a trusted interface, while other switch ports remained untrusted to help prevent unauthorized DHCP servers and reduce the risk of DHCP-based attacks.
 
 
 
@@ -30,6 +30,41 @@ DHCP Lab
 
 
 
+**VLAN 10** = BLUE
+
+
+
+**VLAN 20** = YELLOW
+
+
+
+**VLAN 30** = Green
+
+
+
+
+
+
+
+
+
+
+
+**DHCP POOLS**
+
+**VLAN10_POOL** 192.168.10.0/24
+
+**VLAN20_POOL** 192.168.20.0/24
+
+**VLAN30_POOL** 192.168.30./24
+
+
+
+
+
+
+
+
 
 
 
@@ -44,19 +79,19 @@ DHCP Lab
 
 **Objectives:**
 
-Configure a Layer 3 switch to operate as the local DHCP server.
+- Configure a Layer 3 switch to operate as the local DHCP server.
 
-Create and configure VLANs 10, 20, and 30 for the small office network.
+- Create and configure VLANs 10, 20, and 30 for the small office network.
 
-Configure DHCP pools to dynamically assign IP addresses to devices within each VLAN.
+- Configure DHCP pools to dynamically assign IP addresses to devices within each VLAN.
 
-Configure the appropriate default gateways and network parameters for each VLAN.
+- Configure the appropriate default gateways and network parameters for each VLAN.
 
-Implement DHCP Snooping on the required VLANs to provide Layer 2 security.
+- Implement DHCP Snooping on the required VLANs to provide Layer 2 security.
 
-Configure the uplink to the local DHCP server as a trusted interface.
+- Configure the uplink to the local DHCP server as a trusted interface.
 
-Verify proper connectivity and DHCP address assignment across all VLANs.
+- Verify proper connectivity and DHCP address assignment across all VLANs.
 
 
 
