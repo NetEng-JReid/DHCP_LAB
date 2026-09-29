@@ -6,7 +6,7 @@ DHCP Lab
 DHCP Lab 
 
 
-**Purpose:** This DHCP lab in Cisco Packet Tracer was to configure a Layer 3 switch to function as the local DHCP server for VLANs 10, 20, and 30 within a small office network environment. The Layer 3 switch dynamically assigns IP addresses to devices in each VLAN, simplifying IP address management and ensuring proper network connectivity. Also, the first five useable IP addresses of each VLAN subnet was excluded from the DCHP pool scope. Additionally, Layer 2 security was implemented by configuring DHCP Snooping on all VLANs. The uplink to the local DHCP server on the Layer 3 switch was configured as a trusted interface, while other switch ports remained untrusted to help prevent unauthorized DHCP servers and reduce the risk of DHCP-based attacks.
+**Purpose:** This DHCP lab in Cisco Packet Tracer configured a Layer 3 switch to function as the local DHCP server for VLANs 10, 20, and 30 within a small office network environment. The Layer 3 switch dynamically assigns IP addresses to devices in each VLAN, simplifying IP address management and ensuring proper network connectivity. Also, the first five useable IP addresses of each VLAN subnet was excluded from the DCHP scope. Additionally, Layer 2 security was implemented by configuring DHCP Snooping on all VLANs. The uplink to the local DHCP server on the Layer 3 switch was configured as a trusted interface, while other switch ports remained untrusted to help prevent unauthorized DHCP servers and reduce the risk of DHCP-based attacks.
 
 
 
